@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Developer Battleship
+//  DeveloperBattleship
 //
 //  Created by Valerii Mykhailenko on 18.11.2021.
 //

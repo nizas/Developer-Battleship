@@ -8,14 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		292711512746F1B9001A4FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292711502746F1B9001A4FC0 /* AppDelegate.swift */; };
-		292711532746F1B9001A4FC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292711522746F1B9001A4FC0 /* SceneDelegate.swift */; };
 		292711552746F1B9001A4FC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292711542746F1B9001A4FC0 /* ViewController.swift */; };
-		292711582746F1B9001A4FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292711562746F1B9001A4FC0 /* Main.storyboard */; };
 		2927115A2746F1BB001A4FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292711592746F1BB001A4FC0 /* Assets.xcassets */; };
 		2927115D2746F1BB001A4FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2927115B2746F1BB001A4FC0 /* LaunchScreen.storyboard */; };
-		292711682746F1BC001A4FC0 /* Developer_BattleshipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292711672746F1BC001A4FC0 /* Developer_BattleshipTests.swift */; };
-		292711722746F1BC001A4FC0 /* Developer_BattleshipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292711712746F1BC001A4FC0 /* Developer_BattleshipUITests.swift */; };
-		292711742746F1BC001A4FC0 /* Developer_BattleshipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292711732746F1BC001A4FC0 /* Developer_BattleshipUITestsLaunchTests.swift */; };
+		292711682746F1BC001A4FC0 /* DeveloperBattleshipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292711672746F1BC001A4FC0 /* DeveloperBattleshipTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +22,17 @@
 			remoteGlobalIDString = 2927114C2746F1B9001A4FC0;
 			remoteInfo = "Developer Battleship";
 		};
-		2927116E2746F1BC001A4FC0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 292711452746F1B9001A4FC0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2927114C2746F1B9001A4FC0;
-			remoteInfo = "Developer Battleship";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2927114D2746F1B9001A4FC0 /* Developer Battleship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Developer Battleship.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2927114D2746F1B9001A4FC0 /* DeveloperBattleship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeveloperBattleship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		292711502746F1B9001A4FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		292711522746F1B9001A4FC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		292711542746F1B9001A4FC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		292711572746F1B9001A4FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		292711592746F1BB001A4FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2927115C2746F1BB001A4FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2927115E2746F1BB001A4FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		292711632746F1BC001A4FC0 /* Developer BattleshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Developer BattleshipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		292711672746F1BC001A4FC0 /* Developer_BattleshipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer_BattleshipTests.swift; sourceTree = "<group>"; };
-		2927116D2746F1BC001A4FC0 /* Developer BattleshipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Developer BattleshipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		292711712746F1BC001A4FC0 /* Developer_BattleshipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer_BattleshipUITests.swift; sourceTree = "<group>"; };
-		292711732746F1BC001A4FC0 /* Developer_BattleshipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer_BattleshipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		292711632746F1BC001A4FC0 /* DeveloperBattleshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeveloperBattleshipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		292711672746F1BC001A4FC0 /* DeveloperBattleshipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperBattleshipTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +50,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2927116A2746F1BC001A4FC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		292711442746F1B9001A4FC0 = {
 			isa = PBXGroup;
 			children = (
-				2927114F2746F1B9001A4FC0 /* Developer Battleship */,
-				292711662746F1BC001A4FC0 /* Developer BattleshipTests */,
-				292711702746F1BC001A4FC0 /* Developer BattleshipUITests */,
+				2927114F2746F1B9001A4FC0 /* DeveloperBattleship */,
+				292711662746F1BC001A4FC0 /* DeveloperBattleshipTests */,
 				2927114E2746F1B9001A4FC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,50 +65,46 @@
 		2927114E2746F1B9001A4FC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2927114D2746F1B9001A4FC0 /* Developer Battleship.app */,
-				292711632746F1BC001A4FC0 /* Developer BattleshipTests.xctest */,
-				2927116D2746F1BC001A4FC0 /* Developer BattleshipUITests.xctest */,
+				2927114D2746F1B9001A4FC0 /* DeveloperBattleship.app */,
+				292711632746F1BC001A4FC0 /* DeveloperBattleshipTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2927114F2746F1B9001A4FC0 /* Developer Battleship */ = {
+		2927114F2746F1B9001A4FC0 /* DeveloperBattleship */ = {
 			isa = PBXGroup;
 			children = (
 				292711502746F1B9001A4FC0 /* AppDelegate.swift */,
-				292711522746F1B9001A4FC0 /* SceneDelegate.swift */,
 				292711542746F1B9001A4FC0 /* ViewController.swift */,
-				292711562746F1B9001A4FC0 /* Main.storyboard */,
+				292711802746F454001A4FC0 /* Resursies */,
+			);
+			path = DeveloperBattleship;
+			sourceTree = "<group>";
+		};
+		292711662746F1BC001A4FC0 /* DeveloperBattleshipTests */ = {
+			isa = PBXGroup;
+			children = (
+				292711672746F1BC001A4FC0 /* DeveloperBattleshipTests.swift */,
+			);
+			path = DeveloperBattleshipTests;
+			sourceTree = "<group>";
+		};
+		292711802746F454001A4FC0 /* Resursies */ = {
+			isa = PBXGroup;
+			children = (
 				292711592746F1BB001A4FC0 /* Assets.xcassets */,
 				2927115B2746F1BB001A4FC0 /* LaunchScreen.storyboard */,
 				2927115E2746F1BB001A4FC0 /* Info.plist */,
 			);
-			path = "Developer Battleship";
-			sourceTree = "<group>";
-		};
-		292711662746F1BC001A4FC0 /* Developer BattleshipTests */ = {
-			isa = PBXGroup;
-			children = (
-				292711672746F1BC001A4FC0 /* Developer_BattleshipTests.swift */,
-			);
-			path = "Developer BattleshipTests";
-			sourceTree = "<group>";
-		};
-		292711702746F1BC001A4FC0 /* Developer BattleshipUITests */ = {
-			isa = PBXGroup;
-			children = (
-				292711712746F1BC001A4FC0 /* Developer_BattleshipUITests.swift */,
-				292711732746F1BC001A4FC0 /* Developer_BattleshipUITestsLaunchTests.swift */,
-			);
-			path = "Developer BattleshipUITests";
+			path = Resursies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2927114C2746F1B9001A4FC0 /* Developer Battleship */ = {
+		2927114C2746F1B9001A4FC0 /* DeveloperBattleship */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 292711772746F1BC001A4FC0 /* Build configuration list for PBXNativeTarget "Developer Battleship" */;
+			buildConfigurationList = 292711772746F1BC001A4FC0 /* Build configuration list for PBXNativeTarget "DeveloperBattleship" */;
 			buildPhases = (
 				292711492746F1B9001A4FC0 /* Sources */,
 				2927114A2746F1B9001A4FC0 /* Frameworks */,
@@ -142,14 +114,14 @@
 			);
 			dependencies = (
 			);
-			name = "Developer Battleship";
+			name = DeveloperBattleship;
 			productName = "Developer Battleship";
-			productReference = 2927114D2746F1B9001A4FC0 /* Developer Battleship.app */;
+			productReference = 2927114D2746F1B9001A4FC0 /* DeveloperBattleship.app */;
 			productType = "com.apple.product-type.application";
 		};
-		292711622746F1BC001A4FC0 /* Developer BattleshipTests */ = {
+		292711622746F1BC001A4FC0 /* DeveloperBattleshipTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2927117A2746F1BC001A4FC0 /* Build configuration list for PBXNativeTarget "Developer BattleshipTests" */;
+			buildConfigurationList = 2927117A2746F1BC001A4FC0 /* Build configuration list for PBXNativeTarget "DeveloperBattleshipTests" */;
 			buildPhases = (
 				2927115F2746F1BC001A4FC0 /* Sources */,
 				292711602746F1BC001A4FC0 /* Frameworks */,
@@ -160,28 +132,10 @@
 			dependencies = (
 				292711652746F1BC001A4FC0 /* PBXTargetDependency */,
 			);
-			name = "Developer BattleshipTests";
+			name = DeveloperBattleshipTests;
 			productName = "Developer BattleshipTests";
-			productReference = 292711632746F1BC001A4FC0 /* Developer BattleshipTests.xctest */;
+			productReference = 292711632746F1BC001A4FC0 /* DeveloperBattleshipTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2927116C2746F1BC001A4FC0 /* Developer BattleshipUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2927117D2746F1BC001A4FC0 /* Build configuration list for PBXNativeTarget "Developer BattleshipUITests" */;
-			buildPhases = (
-				292711692746F1BC001A4FC0 /* Sources */,
-				2927116A2746F1BC001A4FC0 /* Frameworks */,
-				2927116B2746F1BC001A4FC0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2927116F2746F1BC001A4FC0 /* PBXTargetDependency */,
-			);
-			name = "Developer BattleshipUITests";
-			productName = "Developer BattleshipUITests";
-			productReference = 2927116D2746F1BC001A4FC0 /* Developer BattleshipUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,13 +154,9 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = 2927114C2746F1B9001A4FC0;
 					};
-					2927116C2746F1BC001A4FC0 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 2927114C2746F1B9001A4FC0;
-					};
 				};
 			};
-			buildConfigurationList = 292711482746F1B9001A4FC0 /* Build configuration list for PBXProject "Developer Battleship" */;
+			buildConfigurationList = 292711482746F1B9001A4FC0 /* Build configuration list for PBXProject "DeveloperBattleship" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +169,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2927114C2746F1B9001A4FC0 /* Developer Battleship */,
-				292711622746F1BC001A4FC0 /* Developer BattleshipTests */,
-				2927116C2746F1BC001A4FC0 /* Developer BattleshipUITests */,
+				2927114C2746F1B9001A4FC0 /* DeveloperBattleship */,
+				292711622746F1BC001A4FC0 /* DeveloperBattleshipTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +182,10 @@
 			files = (
 				2927115D2746F1BB001A4FC0 /* LaunchScreen.storyboard in Resources */,
 				2927115A2746F1BB001A4FC0 /* Assets.xcassets in Resources */,
-				292711582746F1B9001A4FC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		292711612746F1BC001A4FC0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2927116B2746F1BC001A4FC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,7 +201,6 @@
 			files = (
 				292711552746F1B9001A4FC0 /* ViewController.swift in Sources */,
 				292711512746F1B9001A4FC0 /* AppDelegate.swift in Sources */,
-				292711532746F1B9001A4FC0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				292711682746F1BC001A4FC0 /* Developer_BattleshipTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		292711692746F1BC001A4FC0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				292711722746F1BC001A4FC0 /* Developer_BattleshipUITests.swift in Sources */,
-				292711742746F1BC001A4FC0 /* Developer_BattleshipUITestsLaunchTests.swift in Sources */,
+				292711682746F1BC001A4FC0 /* DeveloperBattleshipTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,25 +217,12 @@
 /* Begin PBXTargetDependency section */
 		292711652746F1BC001A4FC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2927114C2746F1B9001A4FC0 /* Developer Battleship */;
+			target = 2927114C2746F1B9001A4FC0 /* DeveloperBattleship */;
 			targetProxy = 292711642746F1BC001A4FC0 /* PBXContainerItemProxy */;
-		};
-		2927116F2746F1BC001A4FC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2927114C2746F1B9001A4FC0 /* Developer Battleship */;
-			targetProxy = 2927116E2746F1BC001A4FC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		292711562746F1B9001A4FC0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				292711572746F1B9001A4FC0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2927115B2746F1BB001A4FC0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -441,10 +359,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GW5J7A7767;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Developer Battleship/Info.plist";
+				INFOPLIST_FILE = DeveloperBattleship/Resursies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,10 +388,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GW5J7A7767;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Developer Battleship/Info.plist";
+				INFOPLIST_FILE = DeveloperBattleship/Resursies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -509,7 +429,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Developer Battleship.app/Developer Battleship";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeveloperBattleship.app/DeveloperBattleship";
 			};
 			name = Debug;
 		};
@@ -534,60 +454,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Developer Battleship.app/Developer Battleship";
-			};
-			name = Release;
-		};
-		2927117E2746F1BC001A4FC0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GW5J7A7767;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mykhailenko.valerii.Developer-BattleshipUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Developer Battleship";
-			};
-			name = Debug;
-		};
-		2927117F2746F1BC001A4FC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GW5J7A7767;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mykhailenko.valerii.Developer-BattleshipUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Developer Battleship";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeveloperBattleship.app/DeveloperBattleship";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		292711482746F1B9001A4FC0 /* Build configuration list for PBXProject "Developer Battleship" */ = {
+		292711482746F1B9001A4FC0 /* Build configuration list for PBXProject "DeveloperBattleship" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				292711752746F1BC001A4FC0 /* Debug */,
@@ -596,7 +470,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		292711772746F1BC001A4FC0 /* Build configuration list for PBXNativeTarget "Developer Battleship" */ = {
+		292711772746F1BC001A4FC0 /* Build configuration list for PBXNativeTarget "DeveloperBattleship" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				292711782746F1BC001A4FC0 /* Debug */,
@@ -605,20 +479,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2927117A2746F1BC001A4FC0 /* Build configuration list for PBXNativeTarget "Developer BattleshipTests" */ = {
+		2927117A2746F1BC001A4FC0 /* Build configuration list for PBXNativeTarget "DeveloperBattleshipTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2927117B2746F1BC001A4FC0 /* Debug */,
 				2927117C2746F1BC001A4FC0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2927117D2746F1BC001A4FC0 /* Build configuration list for PBXNativeTarget "Developer BattleshipUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2927117E2746F1BC001A4FC0 /* Debug */,
-				2927117F2746F1BC001A4FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
